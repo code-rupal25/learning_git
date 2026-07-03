@@ -1,3 +1,5 @@
+## RUN IN CMD PROMPT
+
 ### In Terminal to change folder 
 cd /path/to/folder
 
@@ -18,6 +20,22 @@ cd repo
 git branch -a
 
 #### switch to required branch
-git checkout dev or prod 
+git checkout dev or prod   OR git switch branch
+
+#### Pull Latest Changes
+git pull origin branch
+
+### IF BRANCH Exists Already
+
+git branch --show-current
+
+#### check if pointing to remote branch
+git branch -vv
+
+git fetch --all
+
+git push (to push changes in branch)
+
+
 
 
